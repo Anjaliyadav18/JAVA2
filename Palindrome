@@ -1,0 +1,16 @@
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        String a = "yey";
+        StringBuffer buffer = new StringBuffer(a);
+        buffer.reverse();
+        String data = buffer.toString();
+    if(a.equals(data)){
+        System.out.println("YES");
+    }
+    else{
+        System.out.println("NO");
+ 
+    }
+}
+}
